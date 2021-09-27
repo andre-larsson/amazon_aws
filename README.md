@@ -1,3 +1,3 @@
 # Description
 
-script for installing an Apache webserver on Ubuntu
+Script for installing an Apache webserver on Ubuntu.
