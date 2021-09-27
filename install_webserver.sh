@@ -17,6 +17,10 @@ echo "<html>
 </head>
 <body>
 <h1>Andr&eacute Larsson</h1>
+
+<p>Congratulations, if you see this page, Apache2 is up and running!<p>
+
+<p>Life is trying things to see if they work. -Ray Bradbury</p>
 </body>
 </html>" > /var/www/html/index.html
 
