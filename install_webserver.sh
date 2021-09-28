@@ -11,7 +11,7 @@ apt update -y
 apt install apache2 -y
 
 # change default website
-echo "<html>
+echo '<html>
 <head>
 <title>Andr&eacute Larsson</title>
 </head>
@@ -20,9 +20,9 @@ echo "<html>
 
 <p>Congratulations, if you see this page, Apache2 is up and running!<p>
 
-<p>Life is trying things to see if they work. -Ray Bradbury</p>
+<p style="color:lightsalmon;background-color:darkslategray;padding: .5em;">Life is trying things to see if they work. -Ray Bradbury</p>
 </body>
-</html>" > /var/www/html/index.html
+</html>' > /var/www/html/index.html
 
 # start server
 systemctl start apache2
